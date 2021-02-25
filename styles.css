@@ -1,3 +1,13 @@
+body {
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
 
 nav > ul {
 	display: grid;
