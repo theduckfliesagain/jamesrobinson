@@ -1,0 +1,11 @@
+.work-boxes {
+    display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: auto;
+	grid-gap: 1em;
+}
+
+.work-boxes section {
+    padding: 1em;
+
+}
