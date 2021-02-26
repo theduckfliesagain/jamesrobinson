@@ -1,4 +1,12 @@
 
+  /* Organise main content positions */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    border: 1rem solid white;
+  }
+  
   /* Set a background color */
   body {
     background-color: #474e5d;
